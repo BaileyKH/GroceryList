@@ -41,5 +41,5 @@ function clearInputFieldEl() {
 }
 
 function appendItemToShoppingListEl(itemValue) {
-    shoppingListEl.innerHTML += `<li class="list-items">${itemValue}</li>`
+    shoppingListEl.innerHTML += `<li>${itemValue}</li>`
 }

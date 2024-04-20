@@ -40,6 +40,21 @@ button {
     font-family: 'Rubik', sans-serif;
 }
 
-.list-items {
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: hsl(25, 100%, 43%);
     color: white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    flex-grow: 1;
+    text-align: center;
+    border-radius:8px;
 }
