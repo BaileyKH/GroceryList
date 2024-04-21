@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     font-family: 'Rubik', sans-serif;
     background-color: hsl(264, 14%, 7%);
+    user-select: none;
 }
 
 .container {
