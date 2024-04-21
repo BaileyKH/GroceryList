@@ -38,6 +38,7 @@ onValue(shoppingListInDB, function(snapshot) {
         }
     } else {
         shoppingListEl.innerHTML = "No items here...yet!"
+        shoppingListEl.style.color = ("white")
     }
     
 })
