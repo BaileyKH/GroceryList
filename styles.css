@@ -38,6 +38,11 @@ button {
     font-size: 20px;
     text-align: center;
     font-family: 'Rubik', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(267, 100%, 26%);
 }
 
 ul {
@@ -57,4 +62,9 @@ ul li {
     flex-grow: 1;
     text-align: center;
     border-radius:8px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: hsl(25, 100%, 33%);
 }
