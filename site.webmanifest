@@ -1,0 +1,11 @@
+{
+    "name": "Shopping List",
+    "short_name": "Shopping List",
+    "icons":
+        [
+            {"src":"assets/favicon.png","sizes":"192x192","type":"image/png"}
+        ],
+    "theme_color": "#110f14",
+    "background_color": "#110f14",
+    "display": "standalone"
+}
